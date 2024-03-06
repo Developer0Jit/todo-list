@@ -1,0 +1,66 @@
+.form-btn{
+    color: white;
+    padding: 8px;
+    border: 2px solid rgb(45, 45, 215);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(0, 72, 255);
+}
+
+.form-btn:hover{
+    background-color: rgb(69, 102, 187);
+}
+
+.title-form{
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+}
+
+.toggle-btn{
+    color: white;
+    background-color: green;
+    padding: 8px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.toggle-btn:hover{
+    background-color: rgb(48, 169, 48);
+}
+
+.delete-btn{
+    color: white;
+    background-color: red;
+    padding: 8px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.delete-btn:hover{
+    background-color: rgb(192, 53, 53);
+}
+
+/* form.css */
+
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  h1 {
+    display: inline-block;
+    animation: scrollText 10s linear infinite;
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
